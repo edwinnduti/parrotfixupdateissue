@@ -38,7 +38,7 @@ sudo apt update
 ```
 or
 ```bash
-sudo parrot-ugrade
+sudo parrot-upgrade
 ```
 
 It will now update your packages and repos.
