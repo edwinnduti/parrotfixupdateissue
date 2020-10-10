@@ -30,6 +30,10 @@ TO add this key,do this:
 ```bash
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B56FFA946EB1660A
 ```
+Something similar should be executed:
+```bash
+Executing: gpg --ignore-time-conflict --no-options --no-default-keyring --homedir /tmp/tmp.QTeppiINUh --no-auto-check-trustdb --trust-model always --keyring /etc/apt/trusted.gpg --primary-keyring /etc/apt/trusted.gpg --keyserver keyserver.ubuntu.com --recv-keys 40976EAF437D05B5 gpg: requesting key 437D05B5 from hkp server keyserver.ubuntu.com gpg: key 437D05B5: public key "Ubuntu Archive Automatic Signing Key " imported gpg: Total number processed: 1 gpg: imported: 1
+```
 
 keyserver.ubuntu.com is the server you will be using.
 Now you can run:
